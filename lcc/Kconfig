@@ -1,0 +1,11 @@
+config LCC
+	tristate "LCC"
+	default n
+	depends on BOARDCTL
+	select BOARDCTL_USBDEVCTRL
+	---help---
+		Enable the LCC(Layout command and control) subsystem
+
+if LCC
+
+endif

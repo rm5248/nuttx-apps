@@ -1,0 +1,4 @@
+ifneq ($(CONFIG_LCC),)
+CONFIGURED_APPS += $(APPDIR)/lcc
+endif
+
